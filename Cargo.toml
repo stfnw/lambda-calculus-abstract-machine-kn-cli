@@ -1,0 +1,8 @@
+[package]
+name = "lambda-calculus-full-reducing-krivine-machine-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+lambda_calculus_full_reducing_krivine_machine = { git = "https://github.com/stfnw/lambda-calculus-full-reducing-krivine-machine.git", rev = "ccbeb83ffa200ac154e28c0469a6e23dd249a20c", version = "0.1.0" }
