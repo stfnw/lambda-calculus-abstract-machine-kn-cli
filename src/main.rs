@@ -1,5 +1,5 @@
 use clap::{Parser, ValueEnum};
-use lambda_calculus_full_reducing_krivine_machine::{
+use lambda_calculus_abstract_machine_kn::{
     eval,
     format::{blc, named},
 };

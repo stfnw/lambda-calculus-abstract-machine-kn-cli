@@ -1,5 +1,5 @@
 A small demo project performing normal-order evaluation of untyped lambda calculus terms.
-It wraps the library https://github.com/stfnw/lambda-calculus-full-reducing-krivine-machine into a small cli app.
+It wraps the library https://github.com/stfnw/lambda-calculus-abstract-machine-kn into a small cli app.
 The library implements a full-reducing variant (KN) of the Krivine abstract machine;
 specifically the formulation in Á. GARCÍA-PÉREZ and P. NOGUEIRA, "The full-reducing Krivine abstract machine KN simulates pure normal-order reduction in lockstep: A proof via corresponding calculus", Journal of Functional Programming, vol. 29, p. e7, 2019. doi:10.1017/S0956796819000017; Fig. 3. "A version of KN that works with closures with closed terms".
 (This repo is unaffiliated; goal is me learning).
